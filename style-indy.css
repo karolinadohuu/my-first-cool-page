@@ -1,0 +1,55 @@
+/* Comments */
+h1 {
+  color: purple;
+  text-decoration: underline;
+}
+p {
+  font-size: 20px;
+  color: yellow;
+  background-color: red;
+  padding: 20px 10px;
+  /* 20 px to top and bottom, 10px to left and right */
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  
+}
+/* Universal selectors */
+* {
+  color: red;
+}
+.subtitle {
+  color: skyblue;
+}
+/* ID selectors */
+#hello {
+  color: #098;
+}
+#karolina {
+  color: #930;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#achim {
+    color: red;
+    font-size: 50px;
+}
+
+.karo{
+  color: black;
+}
